@@ -941,8 +941,10 @@ footer {
 }
 
 .enbu_dantai img {
+  display: block;
   margin: 0;
   width: 100%;
+  height: auto;
 }
 .shido_box {
   display: flex;

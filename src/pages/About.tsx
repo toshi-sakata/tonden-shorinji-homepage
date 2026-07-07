@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <main>
       <div className="enbu_dantai">
-        <img src="/images/kagami.jpg" alt="" />
+        <img src="/images/kagami.jpg" width={1920} height={1219} alt="" />
       </div>
 
       <div className="fbox_center">

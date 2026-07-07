@@ -4,7 +4,7 @@ export const Edu = () => {
   return (
     <main>
       <div className="enbu_dantai">
-        <img src="/images/edu.jpg" alt="" />
+        <img src="/images/edu.jpg" width={1920} height={1337} alt="" />
       </div>
 
       <div className="fbox_center">

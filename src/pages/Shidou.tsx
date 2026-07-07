@@ -4,7 +4,7 @@ export const Shidou = () => {
   return (
     <main>
       <div className="enbu_dantai">
-        <img src="/images/enbu_dantai.jpg" alt="" />
+        <img src="/images/enbu_dantai.jpg" width={1920} height={1418} alt="" />
       </div>
 
       <div className="fbox_center">
