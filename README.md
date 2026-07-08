@@ -1,38 +1,12 @@
 # 少林寺拳法 札幌屯田・丘珠スポーツ少年団ホームページ（React版）
 
-## 概要
-
-既存の HTML + jQuery で構築されていたホームページを、React + TypeScript + Vite を用いた SPAへリプレースした。
-
-本リポジトリは、既存のjQuery版ホームページをReact + TypeScriptへリプレースしたものである。
-比較できるよう、リプレース前のjQuery版も公開している。
-
-- jQuery版（リプレース前）
-  https://github.com/toshi-sakata/tonden-shorinji-homepage-jquery
-
-- React + TypeScript版（本リポジトリ）
-  https://github.com/toshi-sakata/tonden-shorinji-homepage
-
-デザインやユーザー体験はできるだけ維持しながら、Reactによるコンポーネント設計へ移行し、保守性・拡張性を向上させることを目的としている。
-
----
+少林寺拳法 札幌屯田・丘珠スポーツ少年団の公式ホームページ。
+React + TypeScript + Viteを使用しています。
 
 ## デモ
 
 https://cf498068.cloudfree.jp/
 
----
-
-## 使用技術
-
-- React
-- TypeScript
-- React Router
-- Vite
-- HTML5
-- CSS3
-
----
 
 ## 主な機能
 
@@ -43,71 +17,46 @@ https://cf498068.cloudfree.jp/
 - スクロールフェードインアニメーション
 - Googleマップによる練習場所表示
 
----
+## 使用技術
 
-## リプレース内容
+- React
+- TypeScript
+- React Router
+- Vite
+- HTML5
+- CSS3
 
-### jQueryからReactへの移行
+## プロジェクト構成
 
-既存サイトではjQueryによるDOM操作を中心とした実装となっていた。
-Reactでは状態管理による画面制御へ変更し、コンポーネントベースの構成へリファクタリングした。
+```
+src
+├── components
+├── hooks
+├── pages
+└── App.tsx
+```
 
-リプレース前後のソースコードを公開しているため、設計や実装の違いを比較できる。
+## 開発方法
 
-### SPA化
+### Install
 
-React Routerを導入し、ページ全体を再読み込みしない画面遷移を実現した。
+```bash
+npm install
+```
 
-### オープニングアニメーションの再現
+### Development
 
-既存サイトの演出を維持しながら、ReactとCSS Animationを用いて再実装した。
+```bash
+npm run dev
+```
 
-### スクロールフェードイン
+### Build
 
-既存サイトと同じタイミングで表示されるようスクロール処理を再設計し、ページ遷移時の挙動も調整した。
+```bash
+npm run build
+```
 
-### コンポーネント設計
+## 関連レポジトリ
+### HTML + jQuery版
 
-画面を以下のコンポーネントへ分割した。
-
-- Header
-- Footer
-- Practice
-- 各ページコンポーネント
-
-共通部品を分離することで、再利用性と保守性を向上させた。
-
----
-
-## 開発で工夫した点
-
-- 既存サイトと同じ見た目・操作感を維持したままReactへ移行
-- レスポンシブ表示を維持したままReact Routerへ対応
-- オープニングアニメーションとスクロールアニメーションのタイミングを調整
-- TypeScriptを利用してコンポーネントを型安全に実装
-
----
-
-## 今後の改善予定
-
-- Googleフォームによる問い合わせ機能
-- SEO改善
-- アクセシビリティ改善
-- パフォーマンス最適化
-
----
-
-## 制作背景
-
-所属している少林寺拳法スポーツ少年団のホームページを題材として、既存のjQueryサイトをReactへリプレースした。
-
-単なるReactの学習ではなく、実際の既存サイトを対象に、
-
-- 現状分析
-- コンポーネント設計
-- React + TypeScriptへの移行
-- 動作検証
-
-までを一貫して行った。
-
-既存資産を保守性・拡張性の高い構成へ移行することを意識して設計・実装を行った。
+https://github.com/toshi-sakata/tonden-shorinji-homepage-jquery
