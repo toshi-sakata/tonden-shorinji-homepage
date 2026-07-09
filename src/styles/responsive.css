@@ -542,6 +542,21 @@ a:hover, a:active, a:focus {
 .hum_shade.close {
   display: none;
 }
+.hum_click,
+.hum_icon {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hum_click {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+}
+
 @media (min-width:769px) {
   .hum_click,
   .hum_shade,
@@ -550,7 +565,6 @@ a:hover, a:active, a:focus {
     display: none;
   }
 }
-
 .hum {
   display: flex;
   width: 100%;
