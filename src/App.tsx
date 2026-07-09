@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useFadeIn } from './hooks/useFadeIn';
 import { Header } from './components/Header';
@@ -106,8 +106,8 @@ const AppContent = () => {
 
 export const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <AppContent />
-    </HashRouter>
+    </BrowserRouter>
   );
-}
+};

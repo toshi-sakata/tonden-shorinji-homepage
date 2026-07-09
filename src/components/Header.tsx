@@ -25,32 +25,27 @@ export const Header = ({ openingFinished }: HeaderProps) => {
 
   return (
     <header>
-      <a
+      <button
+        type="button"
         className="hum_click"
-        href="#"
-        onClick={(e) => {
-            e.preventDefault();
-            setIsMenuOpen(false);
-        }}
+        onClick={() => setIsMenuOpen(false)}
       >
-      <div className={`hum_shade ${isMenuOpen ? 'open' : 'close'}`} />
-      </a>
+        <div className={`hum_shade ${isMenuOpen ? 'open' : 'close'}`} />
+      </button>
       <div className="hum">
         <Link className="logo_souen" to="/">
           <img src="/images/logo_souen.gif" alt="札幌屯田 丘珠スポーツ少年団" />
         </Link>
-        <a className="logo_shorinji" href="index.html">
+        <Link className="logo_shorinji" to="/">
           <img src="/images/logo_shorinji.gif" alt="少林寺拳法" />
-        </a>
+        </Link>
 
-        <a
+        <button
+          type="button"
           className={`hum_icon ${isMenuOpen ? 'active' : ''}`}
-          href="#"
           aria-label="メニュー"
-          onClick={(e) => {
-            e.preventDefault();
-            setIsMenuOpen(!isMenuOpen);
-          }}
+          aria-expanded={isMenuOpen}
+          onClick={() => setIsMenuOpen((open) => !open)}
         >
           <span />
           <span />
@@ -62,7 +57,7 @@ export const Header = ({ openingFinished }: HeaderProps) => {
             <div className={`hum_str ${isMenuOpen ? 'active' : ''}`}>
               MENU
             </div>
-        </a>
+        </button>
       </div>
       <div className="dummy" />
 
