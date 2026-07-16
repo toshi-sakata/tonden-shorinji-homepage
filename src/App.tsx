@@ -10,15 +10,21 @@ import { Edu } from './pages/Edu';
 import { Shidou } from './pages/Shidou';
 import { Info } from './pages/Info';
 
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
-
+const ScrollRestoration = () => {
   useEffect(() => {
     // ブラウザのスクロール位置復元を無効化
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';
     }
+  }, []);
 
+  return null;
+};
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
     requestAnimationFrame(() => {
       window.scrollTo({
         top: 0,
@@ -27,16 +33,6 @@ const ScrollToTop = () => {
       });
     });
   }, [pathname]);
-
-  return null;
-};
-
-const ScrollRestoration = () => {
-  useEffect(() => {
-    if ('scrollRestoration' in window.history) {
-      window.history.scrollRestoration = 'manual';
-    }
-  }, []);
 
   return null;
 };
