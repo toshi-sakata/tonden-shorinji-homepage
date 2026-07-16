@@ -33,6 +33,7 @@ src
 ├── components
 ├── hooks
 ├── pages
+├── styles
 └── App.tsx
 ```
 
