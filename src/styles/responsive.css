@@ -7,19 +7,19 @@ html {
 main {
   line-height: 1.7;
 }
-@media (min-width:650px) {
+@media (min-width: 650px) {
   main {
     line-height: 2;
   }
 }
 body {
-  color: #4B4B4B;
+  color: #4b4b4b;
   font-family: source-sans-pro;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
   margin: 0;
-  background-color: #EFF5F8;
+  background-color: #eff5f8;
   overflow-x: hidden;
 }
 
@@ -48,7 +48,7 @@ body {
   position: absolute;
   width: 100%;
   margin: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 9999;
   height: 0;
   top: 0px;
@@ -74,7 +74,7 @@ body {
   position: absolute;
   width: 0;
   margin: 0;
-  background-color: #8B0A97;
+  background-color: #8b0a97;
   z-index: 9990;
   height: 0;
   top: 0px;
@@ -88,7 +88,7 @@ body {
 }
 
 .renshuu {
-  background-color: rgba(99,99,99,0.20);
+  background-color: rgba(99, 99, 99, 0.2);
   display: flex;
   position: relative;
   left: -100%;
@@ -121,7 +121,7 @@ body {
 .index_margin.index_margin_rev {
   flex-direction: column-reverse;
 }
-@media (min-width:540px) {
+@media (min-width: 540px) {
   .index_margin {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -153,13 +153,13 @@ body {
   justify-content: center;
   align-content: center;
 }
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .practice_outer2 {
     flex-wrap: nowrap;
   }
 }
 
-.souen_top  {
+.souen_top {
   margin-top: 80px;
   margin-left: 0px;
   margin-right: 0px;
@@ -167,19 +167,19 @@ body {
   margin-bottom: 80px;
 }
 
-@media (min-width:769px) {
-  .souen_top  {
+@media (min-width: 769px) {
+  .souen_top {
     width: 170px;
   }
 }
 
-.souen_bottom  {
+.souen_bottom {
   margin-top: 13px;
   width: 100px;
   margin-bottom: 10px;
 }
-@media (min-width:769px) {
-  .souen_bottom  {
+@media (min-width: 769px) {
+  .souen_bottom {
     width: 130px;
   }
 }
@@ -194,15 +194,16 @@ body {
 .enbu img {
   width: 100%;
   margin-top: 20px;
-  -webkit-box-shadow: 2px 2px 4px 1px rgba(3,3,3,0.24);
-  box-shadow: 2px 2px 4px 1px rgba(3,3,3,0.24);
+  -webkit-box-shadow: 2px 2px 4px 1px rgba(3, 3, 3, 0.24);
+  box-shadow: 2px 2px 4px 1px rgba(3, 3, 3, 0.24);
   margin-right: 0px;
   margin-left: 0px;
 }
 
-.fbox_title  {
-  color: rgba(43,25,14,1.00);
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+.fbox_title {
+  color: rgba(43, 25, 14, 1);
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: 2.2rem;
   font-weight: bold;
   display: flex;
@@ -213,20 +214,21 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 1.9rem;
-  text-shadow: 2px 1px 4px rgba(121,121,121,1.00);
+  text-shadow: 2px 1px 4px rgba(121, 121, 121, 1);
   white-space: nowrap;
 }
 
-@media (min-width:769px) {
-  .fbox_title  {
+@media (min-width: 769px) {
+  .fbox_title {
     font-size: 2.6rem;
     margin-bottom: 5rem;
   }
 }
-.fbox_title:before ,.fbox_title:after {
+.fbox_title:before,
+.fbox_title:after {
   content: " ";
   width: 26%;
-  border-top: 7px solid rgba(43,25,14,1.00);
+  border-top: 7px solid rgba(43, 25, 14, 1);
   text-shadow: 0px 0px 0px;
 }
 .fbox_title:before {
@@ -236,7 +238,7 @@ body {
   margin-left: 1em;
 }
 
-.box_1  {
+.box_1 {
   display: flex;
   text-align: center;
   padding-top: 10px;
@@ -245,17 +247,33 @@ body {
   padding-right: 25px;
   max-width: 100%;
   flex-direction: column;
-  background-image: -webkit-linear-gradient(37deg,rgba(78,35,36,1.00) 0%,rgba(43,25,20,1.00) 100%);
-  background-image: -moz-linear-gradient(37deg,rgba(78,35,36,1.00) 0%,rgba(43,25,20,1.00) 100%);
-  background-image: -o-linear-gradient(37deg,rgba(78,35,36,1.00) 0%,rgba(43,25,20,1.00) 100%);
-  background-image: linear-gradient(37deg,rgba(78,35,36,1.00) 0%,rgba(43,25,20,1.00) 100%);
+  background-image: -webkit-linear-gradient(
+    37deg,
+    rgba(78, 35, 36, 1) 0%,
+    rgba(43, 25, 20, 1) 100%
+  );
+  background-image: -moz-linear-gradient(
+    37deg,
+    rgba(78, 35, 36, 1) 0%,
+    rgba(43, 25, 20, 1) 100%
+  );
+  background-image: -o-linear-gradient(
+    37deg,
+    rgba(78, 35, 36, 1) 0%,
+    rgba(43, 25, 20, 1) 100%
+  );
+  background-image: linear-gradient(
+    37deg,
+    rgba(78, 35, 36, 1) 0%,
+    rgba(43, 25, 20, 1) 100%
+  );
 }
-@media (min-width:540px) {
+@media (min-width: 540px) {
   .box_1 {
     max-width: 340px;
   }
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .box_1 {
     padding-left: 40px;
     padding-right: 40px;
@@ -265,20 +283,21 @@ body {
 
 .about {
   align-self: center;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
-  background-color: rgba(255,255,255,1.00);
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  background-color: rgba(255, 255, 255, 1);
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 0px;
   font-size: large;
-  text-shadow: 0px 0px 0px rgba(255,255,255,1.00);
-  border: 1px solid rgba(184,184,184,1.00);
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+  border: 1px solid rgba(184, 184, 184, 1);
   width: 600px;
   display: flex;
   flex-direction: column;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .about {
     padding-top: 25px;
     padding-left: 60px;
@@ -289,27 +308,28 @@ body {
 
 .kengaku {
   align-self: center;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
-  background-color: rgba(255,255,255,1.00);
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  background-color: rgba(255, 255, 255, 1);
   padding-left: 20px;
   padding-right: 20px;
   font-size: large;
-  text-shadow: 0px 0px 0px rgba(255,255,255,1.00);
-  border: 1px solid rgba(43,25,14,1.00);
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+  border: 1px solid rgba(43, 25, 14, 1);
   margin-top: 80px;
   margin-bottom: 150px;
   margin-left: 5px;
   margin-right: 5px;
   padding-bottom: 25px;
 }
-@media (min-width:540px) {
+@media (min-width: 540px) {
   .kengaku {
     margin-top: 0px;
     padding-top: 30px;
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 50px;
-    border: 1px solid rgba(43,25,14,1.00);
+    border: 1px solid rgba(43, 25, 14, 1);
   }
 }
 
@@ -319,7 +339,7 @@ body {
   margin-left: 3px;
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .about_margin {
     margin-bottom: 70px;
     margin-left: 0px;
@@ -333,7 +353,7 @@ body {
   margin-left: 3px;
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .info_margin {
     margin-bottom: 2rem;
     margin-left: 0px;
@@ -343,15 +363,16 @@ body {
 
 .about_img img {
   max-width: 100%;
-  -webkit-box-shadow: 2px 2px 4px 1px rgba(3,3,3,0.24);
-  box-shadow: 2px 2px 4px 1px rgba(3,3,3,0.24);
+  -webkit-box-shadow: 2px 2px 4px 1px rgba(3, 3, 3, 0.24);
+  box-shadow: 2px 2px 4px 1px rgba(3, 3, 3, 0.24);
 }
 
 .box_1_title {
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-weight: bold;
   font-size: 1.7rem;
-  color: rgba(255,255,255,1.00);
+  color: rgba(255, 255, 255, 1);
   text-align: left;
   margin-left: 14px;
   margin-top: 15px;
@@ -366,9 +387,9 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
   flex-basis: 90%;
-  border: 1px solid rgba(108,108,108,1.00);
+  border: 1px solid rgba(108, 108, 108, 1);
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .practice {
     flex-basis: 350px;
   }
@@ -378,13 +399,14 @@ body {
   display: flex;
   align-items: baseline;
   margin: 0;
-  background: linear-gradient(180deg, #41295a, #2F0743);
+  background: linear-gradient(180deg, #41295a, #2f0743);
 }
 .practice_day {
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-weight: bolder;
   font-size: 1.7rem;
-  color: rgba(255,255,255,1.00);
+  color: rgba(255, 255, 255, 1);
   text-align: left;
   margin-left: 25px;
   white-space: nowrap;
@@ -392,9 +414,10 @@ body {
   margin-bottom: 15px;
 }
 .practice_time {
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
   font-size: 1rem;
-  color: rgba(255,255,255,1.00);
+  color: rgba(255, 255, 255, 1);
   text-align: left;
   margin-left: 14px;
   margin-top: 15px;
@@ -402,12 +425,14 @@ body {
 }
 .practice_name {
   margin-left: 25px;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
   padding-top: 10px;
 }
 .practice_place {
   margin-left: 25px;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
   padding-bottom: 10px;
 }
 .practice_map {
@@ -427,8 +452,9 @@ body {
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 0px;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
-  color: #FFFFFF;
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  color: #ffffff;
 }
 
 #wrapper header {
@@ -448,16 +474,18 @@ h1 {
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: rgba(244,116,47,1.00);
+  color: rgba(244, 116, 47, 1);
   line-height: 1.3em;
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
 }
 
 h2 {
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN",  serif;
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-weight: bold;
   font-size: 1.6rem;
-  color: rgba(45,26,3,1.00);
+  color: rgba(45, 26, 3, 1);
   text-align: left;
   white-space: nowrap;
   margin-top: 13px;
@@ -465,7 +493,7 @@ h2 {
   padding-bottom: 0px;
   text-shadow: 0px 0px 0px;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   h2 {
     margin-top: 1.5rem;
     margin-bottom: 0px;
@@ -477,10 +505,9 @@ a {
   text-decoration: none;
 }
 
-a:link {
-}
-
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   text-decoration: none;
 }
 .nav {
@@ -493,23 +520,39 @@ a:hover, a:active, a:focus {
   opacity: 1;
   z-index: 9999;
   position: fixed;
-  -webkit-box-shadow: -1px 1px 3px rgba(81,81,81,1.00);
-  box-shadow: -1px 1px 3px rgba(81,81,81,1.00);
-  background-color: rgba(38,0,47,1.00);
+  -webkit-box-shadow: -1px 1px 3px rgba(81, 81, 81, 1);
+  box-shadow: -1px 1px 3px rgba(81, 81, 81, 1);
+  background-color: rgba(38, 0, 47, 1);
   transition: all 0.3s;
   right: -357px;
   top: 50px;
   bottom: 0px;
-  background-image: -webkit-linear-gradient(270deg,rgba(188,16,126,1.00) 0%,rgba(39,3,50,0.80) 100%);
-  background-image: -moz-linear-gradient(270deg,rgba(188,16,126,1.00) 0%,rgba(39,3,50,0.80) 100%);
-  background-image: -o-linear-gradient(270deg,rgba(188,16,126,1.00) 0%,rgba(39,3,50,0.80) 100%);
-  background-image: linear-gradient(180deg,rgba(188,16,126,1.00) 0%,rgba(39,3,50,0.80) 100%);
+  background-image: -webkit-linear-gradient(
+    270deg,
+    rgba(188, 16, 126, 1) 0%,
+    rgba(39, 3, 50, 0.8) 100%
+  );
+  background-image: -moz-linear-gradient(
+    270deg,
+    rgba(188, 16, 126, 1) 0%,
+    rgba(39, 3, 50, 0.8) 100%
+  );
+  background-image: -o-linear-gradient(
+    270deg,
+    rgba(188, 16, 126, 1) 0%,
+    rgba(39, 3, 50, 0.8) 100%
+  );
+  background-image: linear-gradient(
+    180deg,
+    rgba(188, 16, 126, 1) 0%,
+    rgba(39, 3, 50, 0.8) 100%
+  );
 }
 .nav.nav-hidden {
   opacity: 0;
   pointer-events: none;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .nav {
     opacity: 1;
     display: flex;
@@ -529,7 +572,7 @@ a:hover, a:active, a:focus {
 }
 
 .hum_shade {
-  background-color: rgba(0,0,0,0.15);
+  background-color: rgba(0, 0, 0, 0.15);
   display: none;
   width: 100%;
   height: 100%;
@@ -557,7 +600,7 @@ a:hover, a:active, a:focus {
   line-height: 0;
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .hum_click,
   .hum_shade,
   .hum_shade.open,
@@ -573,12 +616,12 @@ a:hover, a:active, a:focus {
   justify-content: center;
   z-index: 20;
   position: fixed;
-  -webkit-box-shadow: 0 2px 5px rgba(95,95,95,1.00);
-  box-shadow: 0 2px 5px rgba(95,95,95,1.00);
+  -webkit-box-shadow: 0 2px 5px rgba(95, 95, 95, 1);
+  box-shadow: 0 2px 5px rgba(95, 95, 95, 1);
   transition: all 0.3s;
   right: 0px;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .hum,
   .hum a,
   .hum a img {
@@ -602,8 +645,7 @@ a:hover, a:active, a:focus {
 .logo_shorinji img {
   height: 28px;
 }
-@media (min-width:769px) {
-  .logo_souen,
+@media (min-width: 769px) {
   .logo_souen,
   .logo_souen img,
   .logo_shorinji,
@@ -613,18 +655,18 @@ a:hover, a:active, a:focus {
 }
 .hum_str {
   font-size: 11px;
-  color: rgba(19,19,19,1.00);
+  color: rgba(19, 19, 19, 1);
   top: 32px;
   position: absolute;
   right: -1px;
   font-family: Arial, Helvetica, sans-serif;
   width: 50px;
   text-align: right;
-  transition: all 0.0s;
+  transition: all 0s;
   opacity: 1;
 }
 .hum_str.active {
-  transition: all 0.0s;
+  transition: all 0s;
   opacity: 0;
 }
 .hum_str.hum_str2 {
@@ -633,7 +675,7 @@ a:hover, a:active, a:focus {
 .hum_str.hum_str2.active {
   opacity: 1;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .hum_str,
   .hum_str.active,
   .hum_str.hum_str2,
@@ -679,7 +721,7 @@ a:hover, a:active, a:focus {
   -webkit-transform: translateY(-9px) rotate(315deg);
   transform: translateY(-9px) rotate(315deg);
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .hum_icon,
   .hum_icon span {
     display: none;
@@ -687,16 +729,15 @@ a:hover, a:active, a:focus {
 }
 .dummy {
   height: 50px;
-  background-color: rgba(186,118,16,1.00);
+  background-color: rgba(186, 118, 16, 1);
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .dummy {
     display: none;
   }
 }
 
-
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .nav_top {
     opacity: 1;
     bottom: auto;
@@ -717,7 +758,8 @@ a:hover, a:active, a:focus {
   white-space: nowrap;
   list-style-type: none;
   list-style-image: none;
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 5px;
@@ -726,7 +768,7 @@ a:hover, a:active, a:focus {
   font-weight: normal;
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   #navlinks {
     display: flex;
     padding: 0;
@@ -734,7 +776,8 @@ a:hover, a:active, a:focus {
     white-space: nowrap;
     list-style-type: none;
     list-style-image: none;
-    font-family:  "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-family:
+      "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
     align-items: baseline;
     font-size: 1rem;
     font-weight: normal;
@@ -744,17 +787,17 @@ a:hover, a:active, a:focus {
   }
 }
 
-#navlinks li  {
+#navlinks li {
   display: flex;
   width: 100%;
   margin-right: auto;
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 19px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #979797;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   #navlinks li {
     width: auto;
     margin-right: 0;
@@ -763,7 +806,7 @@ a:hover, a:active, a:focus {
     margin-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom:0;
+    padding-bottom: 0;
     border-bottom: none;
   }
 }
@@ -772,16 +815,19 @@ a:hover, a:active, a:focus {
   display: block;
   width: 100%;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   #navlinks a {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
-#navlinks a:hover, #navlinks a:active, #navlinks a:focus , #navlinks a.thispage    {
-  color: #FFFFFF;
+#navlinks a:hover,
+#navlinks a:active,
+#navlinks a:focus,
+#navlinks a.thispage {
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -791,9 +837,9 @@ a:hover, a:active, a:focus {
 #navlinks a:hover::after {
   display: none;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   #navlinks a::after {
-    border-bottom: 3px solid #FFFFFF;
+    border-bottom: 3px solid #ffffff;
     content: "";
     display: block;
     transition: all 0.3s ease;
@@ -808,7 +854,7 @@ a:hover, a:active, a:focus {
 }
 .rel_button {
   display: flex;
-  background: linear-gradient(0deg, #5C258D 0%, #4389A2 100%);
+  background: linear-gradient(0deg, #5c258d 0%, #4389a2 100%);
   margin-top: 19px;
   margin-left: 14px;
   padding-left: 25px;
@@ -821,15 +867,15 @@ a:hover, a:active, a:focus {
   height: 44px;
   justify-content: center;
   align-items: center;
-  -webkit-box-shadow: 0 19px 18px -16px rgba(37,12,89,1.00);
-  box-shadow: 0 19px 18px -16px rgba(37,12,89,1.00);
+  -webkit-box-shadow: 0 19px 18px -16px rgba(37, 12, 89, 1);
+  box-shadow: 0 19px 18px -16px rgba(37, 12, 89, 1);
   text-shadow: 0px 0px 0px;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
-a .rel_button  {
-  color: #FFFFFF;
+a .rel_button {
+  color: #ffffff;
   transition: 0.4s;
   font-weight: normal;
   text-decoration: none;
@@ -838,8 +884,11 @@ a .rel_button  {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a .rel_button:hover, a .rel_button:active, a .rel_button:focus    , a .rel_button.thispage    {
-  color: #FFFFFF;
+a .rel_button:hover,
+a .rel_button:active,
+a .rel_button:focus,
+a .rel_button.thispage {
+  color: #ffffff;
   font-weight: normal;
   transform: scale(0.93);
   text-shadow: 0px 0px 0px;
@@ -855,10 +904,26 @@ a .rel_button:hover, a .rel_button:active, a .rel_button:focus    , a .rel_butto
   border-style: none;
   width: 97%;
   margin-top: 70px;
-  background-image: -webkit-linear-gradient(324deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
-  background-image: -moz-linear-gradient(324deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
-  background-image: -o-linear-gradient(324deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
-  background-image: linear-gradient(126deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
+  background-image: -webkit-linear-gradient(
+    324deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
+  background-image: -moz-linear-gradient(
+    324deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
+  background-image: -o-linear-gradient(
+    324deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
+  background-image: linear-gradient(
+    126deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
 }
 
 .map_line {
@@ -869,10 +934,26 @@ a .rel_button:hover, a .rel_button:active, a .rel_button:focus    , a .rel_butto
   width: 97%;
   margin-top: 70px;
   margin-bottom: 70px;
-  background-image: -webkit-linear-gradient(324deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
-  background-image: -moz-linear-gradient(324deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
-  background-image: -o-linear-gradient(324deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
-  background-image: linear-gradient(126deg,rgba(105,0,129,1.00) 0%,rgba(42,0,58,1.00) 100%);
+  background-image: -webkit-linear-gradient(
+    324deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
+  background-image: -moz-linear-gradient(
+    324deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
+  background-image: -o-linear-gradient(
+    324deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
+  background-image: linear-gradient(
+    126deg,
+    rgba(105, 0, 129, 1) 0%,
+    rgba(42, 0, 58, 1) 100%
+  );
 }
 
 footer {
@@ -888,18 +969,19 @@ footer {
 }
 
 .footer_title {
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  text-shadow: 1px 2px 3px #C0C0C0;
-  color: #4A3A2A;
+  text-shadow: 1px 2px 3px #c0c0c0;
+  color: #4a3a2a;
 }
 
 .footer_image img {
   clear: left;
-  -webkit-box-shadow: 2px 3px 4px #C4C4C4;
-  box-shadow: 2px 3px 4px #C4C4C4;
+  -webkit-box-shadow: 2px 3px 4px #c4c4c4;
+  box-shadow: 2px 3px 4px #c4c4c4;
   max-width: 600px;
   width: 100%;
 }
@@ -909,7 +991,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
   font-size: 1rem;
 }
 
@@ -919,13 +1002,14 @@ footer {
   align-self: baseline;
 }
 .daihyou_name {
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: 1.7rem;
   font-weight: bold;
   margin-left: 15px;
   align-self: baseline;
   margin-bottom: 0px;
-  text-shadow: 1px 1px 3px #C3C3C3;
+  text-shadow: 1px 1px 3px #c3c3c3;
 }
 .contact_img_mail {
   width: 1.2rem;
@@ -939,8 +1023,9 @@ footer {
 }
 
 .cp_right {
-  color: rgba(0,0,0,1.00);
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
   font-style: normal;
   font-weight: normal;
   margin-bottom: 16px;
@@ -968,7 +1053,7 @@ footer {
   margin-left: 10px;
   margin-right: 10px;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .shido_box {
     display: flex;
     justify-content: center;
@@ -984,15 +1069,16 @@ footer {
   padding-top: 17px;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
-  color: rgba(23,23,23,1.00);
+  font-family:
+    YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  color: rgba(23, 23, 23, 1);
   max-width: 100%;
   margin-top: 16px;
   margin-left: 16px;
   margin-right: 5px;
-  border: 1px solid #C2C2C2;
+  border: 1px solid #c2c2c2;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .shido_comment {
     padding-left: 35px;
     padding-right: 35px;
@@ -1016,7 +1102,7 @@ footer {
   padding-right: 1rem;
   width: 96%;
 }
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .shidou_fig {
     display: flex;
     margin-left: 1rem;
@@ -1029,24 +1115,25 @@ footer {
 }
 
 .shidou_fig img {
-  -webkit-box-shadow: 3px 3px 3px rgba(114,114,114,1.00);
-  box-shadow: 3px 3px 3px rgba(114,114,114,1.00);
+  -webkit-box-shadow: 3px 3px 3px rgba(114, 114, 114, 1);
+  box-shadow: 3px 3px 3px rgba(114, 114, 114, 1);
   margin-left: 0;
   margin-right: auto;
   max-width: 215px;
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .shidou_fig img {
     max-width: 215px;
   }
 }
 
 .shido_name {
-  font-family: "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family:
+    "Noto Serif JP", YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-weight: bolder;
   font-size: 27px;
-  color: rgba(45,26,3,1.00);
+  color: rgba(45, 26, 3, 1);
   text-align: left;
   white-space: nowrap;
   margin-bottom: -13px;
@@ -1057,7 +1144,7 @@ footer {
   margin-left: 0px;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   ::-webkit-scrollbar {
     display: none;
   }
