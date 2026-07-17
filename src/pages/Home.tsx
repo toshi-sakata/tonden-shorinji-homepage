@@ -20,7 +20,9 @@ export const Home = ({ heroVisible }: HomeProps) => {
       <div className="fbox_center index_margin index_margin_rev">
         <div className="fbox_center box_1 fadeIn fr">
           <div className="box_1_title">護身術として</div>
-          <p>少林寺拳法は暴力から身を守るために技を用い、いたずらに自分から人を傷つけることは致しません。</p>
+          <p>
+            少林寺拳法は暴力から身を守るために技を用い、いたずらに自分から人を傷つけることは致しません。
+          </p>
           <Link to="/about">
             <div className="rel_button">READ MORE</div>
           </Link>
@@ -82,10 +84,14 @@ export const Home = ({ heroVisible }: HomeProps) => {
         <div className="kengaku fadeIn">
           <h2>見学・体験</h2>
           <p>
-            見学・体験は随時受け付けています。<br />
-            話だけでも聞いてみたいという事でも構いません。<br />
-            電話、メールでのお問い合わせもOKです。<br />
-            何度か体験してからの入会をお勧めしています。<br />
+            見学・体験は随時受け付けています。
+            <br />
+            話だけでも聞いてみたいという事でも構いません。
+            <br />
+            電話、メールでのお問い合わせもOKです。
+            <br />
+            何度か体験してからの入会をお勧めしています。
+            <br />
           </p>
           <Link to="/info">
             <div className="rel_button">READ MORE</div>

@@ -50,13 +50,11 @@ export const Header = ({ openingFinished }: HeaderProps) => {
           <span />
           <span />
           <span />
-            <div className={`hum_str hum_str2 ${isMenuOpen ? 'active' : ''}`}>
-              CLOSE
-            </div>
+          <div className={`hum_str hum_str2 ${isMenuOpen ? 'active' : ''}`}>
+            CLOSE
+          </div>
 
-            <div className={`hum_str ${isMenuOpen ? 'active' : ''}`}>
-              MENU
-            </div>
+          <div className={`hum_str ${isMenuOpen ? 'active' : ''}`}>MENU</div>
         </button>
       </div>
       <div className="dummy" />
@@ -64,27 +62,37 @@ export const Header = ({ openingFinished }: HeaderProps) => {
       <nav
         className={`nav ${
           !openingFinished ? 'nav-hidden' : ''
-        } ${isMenuOpen ? 'open' : 'close'} ${
-          isNavTop ? 'nav_top' : ''
-        }`}
+        } ${isMenuOpen ? 'open' : 'close'} ${isNavTop ? 'nav_top' : ''}`}
       >
         <ul id="navlinks">
           <li>
             <Link to="/" onClick={() => setIsMenuOpen(false)}>
-              <img className="home_icon" src="/images/home_icon.gif" alt="ホーム" />
+              <img
+                className="home_icon"
+                src="/images/home_icon.gif"
+                alt="ホーム"
+              />
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={() => setIsMenuOpen(false)}>少林寺拳法とは</Link>
+            <Link to="/about" onClick={() => setIsMenuOpen(false)}>
+              少林寺拳法とは
+            </Link>
           </li>
           <li>
-            <Link to="/edu" onClick={() => setIsMenuOpen(false)}>学び</Link>
+            <Link to="/edu" onClick={() => setIsMenuOpen(false)}>
+              学び
+            </Link>
           </li>
           <li>
-            <Link to="/shidou" onClick={() => setIsMenuOpen(false)}>指導者紹介</Link>
+            <Link to="/shidou" onClick={() => setIsMenuOpen(false)}>
+              指導者紹介
+            </Link>
           </li>
           <li>
-            <Link to="/info" onClick={() => setIsMenuOpen(false)}>始めるために</Link>
+            <Link to="/info" onClick={() => setIsMenuOpen(false)}>
+              始めるために
+            </Link>
           </li>
         </ul>
       </nav>

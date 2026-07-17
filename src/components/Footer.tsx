@@ -26,19 +26,33 @@ export const Footer = () => {
             </div>
 
             <div className="fbox_center">
-              <img className="contact_img_mail" src="/images/mail.png" alt="メール" />
-              <img className="contact_img_mail_ad" src="/images/mail_ad.jpg" alt="メールアドレス" />
+              <img
+                className="contact_img_mail"
+                src="/images/mail.png"
+                alt="メール"
+              />
+              <img
+                className="contact_img_mail_ad"
+                src="/images/mail_ad.jpg"
+                alt="メールアドレス"
+              />
             </div>
           </div>
         </div>
 
         <div className="fbox_center">
           <Link to="/">
-            <img className="souen_bottom" src="/images/souen2.jpg" alt="札幌屯田 丘珠スポーツ少年団" />
+            <img
+              className="souen_bottom"
+              src="/images/souen2.jpg"
+              alt="札幌屯田 丘珠スポーツ少年団"
+            />
           </Link>
         </div>
 
-        <div className="cp_right">Copyright © 2025 札幌屯田 丘珠スポーツ少年団</div>
+        <div className="cp_right">
+          Copyright © 2025 札幌屯田 丘珠スポーツ少年団
+        </div>
       </footer>
     </>
   );
