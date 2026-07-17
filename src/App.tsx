@@ -37,7 +37,6 @@ const ScrollToTop = () => {
   return null;
 };
 
-
 const AppContent = () => {
   const { pathname } = useLocation();
   const isHome = pathname === '/';
