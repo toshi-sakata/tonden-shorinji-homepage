@@ -1,9 +1,9 @@
 # 少林寺拳法 札幌屯田・丘珠スポーツ少年団ホームページ（React版）
 
-少林寺拳法 札幌屯田・丘珠スポーツ少年団の公式ホームページ。
+少林寺拳法 札幌屯田・丘珠スポーツ少年団の公式ホームページです。
 React + TypeScript + Viteを使用しています。
 
-## デモ
+## 公開サイト
 
 https://cf498068.cloudfree.jp/
 
@@ -21,7 +21,7 @@ https://cf498068.cloudfree.jp/
 
 - React
 - TypeScript
-- React Router
+- React Router（BrowserRouter）
 - Vite
 - HTML5
 - CSS3
@@ -57,7 +57,7 @@ npm run dev
 npm run build
 ```
 
-## 関連レポジトリ
+## 関連リポジトリ
 ### HTML + jQuery版
-
+Reactに移行する前に作成していたHTML + jQuery版のリポジトリです。  
 https://github.com/toshi-sakata/tonden-shorinji-homepage-jquery
