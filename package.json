@@ -1,5 +1,7 @@
 {
   "name": "homepage",
+  "description": "少林寺拳法 札幌屯田・丘珠スポーツ少年団の公式ホームページ",
+  "author": "toshi-sakata",
   "private": true,
   "version": "0.0.0",
   "type": "module",
