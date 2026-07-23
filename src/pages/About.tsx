@@ -55,7 +55,7 @@ export const About = () => {
             </p>
 
             <div className="about_img">
-              <img src="/images/kamae.jpg" alt="奉納演武" />
+              <img src="/images/kamae.jpg" alt="奉納演武" loading="lazy" />
             </div>
 
             <p>
@@ -86,7 +86,7 @@ export const About = () => {
             </p>
 
             <div className="about_img">
-              <img src="/images/shushu.jpg" alt="守主攻従" />
+              <img src="/images/shushu.jpg" alt="守主攻従" loading="lazy" />
             </div>
 
             <p>
@@ -117,7 +117,7 @@ export const About = () => {
             </p>
 
             <div className="about_img">
-              <img src="/images/zenkoku.jpg" alt="剛柔一体" />
+              <img src="/images/zenkoku.jpg" alt="剛柔一体" loading="lazy" />
             </div>
 
             <p>
@@ -155,7 +155,7 @@ export const About = () => {
             </p>
 
             <div className="about_img">
-              <img src="/images/enbu2.jpg" alt="組手主体" />
+              <img src="/images/enbu2.jpg" alt="組手主体" loading="lazy" />
             </div>
 
             <p>
