@@ -53,6 +53,7 @@ export const Practice = () => (
               <iframe
                 className="map"
                 src={practice.map}
+                title={`${practice.name} 地図`}
                 width="600"
                 height="450"
                 style={{ border: 0 }}

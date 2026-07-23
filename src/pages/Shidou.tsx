@@ -4,12 +4,12 @@ export const Shidou = () => {
   return (
     <main>
       <div className="enbu_dantai">
-        <img src="/images/enbu_dantai.jpg" width={1920} height={1418} alt="" />
+        <img src="/images/enbu_dantai.jpg" width={1920} height={1418} alt="団体演武" />
       </div>
 
       <div className="fbox_center">
         <Link to="/">
-          <img className="souen_top" src="/images/souen2.jpg" alt="" />
+          <img className="souen_top" src="/images/souen2.jpg" alt="トップページへ戻る" />
         </Link>
       </div>
 
@@ -42,7 +42,7 @@ export const Shidou = () => {
         </div>
 
         <div className="shidou_fig fadeIn fd_2 fl">
-          <img src="/images/nomura.jpg" alt="" />
+          <img src="/images/nomura.jpg" alt="野村忠晴 道院長" />
         </div>
       </div>
     </main>

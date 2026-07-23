@@ -4,12 +4,12 @@ export const About = () => {
   return (
     <main>
       <div className="enbu_dantai">
-        <img src="/images/kagami.jpg" width={1920} height={1219} alt="" />
+        <img src="/images/kagami.jpg" width={1920} height={1219} alt="鏡開き" />
       </div>
 
       <div className="fbox_center">
         <Link to="/">
-          <img className="souen_top" src="/images/souen2.jpg" alt="" />
+          <img className="souen_top" src="/images/souen2.jpg" alt="トップページへ戻る" />
         </Link>
       </div>
 
@@ -55,7 +55,7 @@ export const About = () => {
             </p>
 
             <div className="about_img">
-              <img src="/images/kamae.jpg" alt="" />
+              <img src="/images/kamae.jpg" alt="奉納演武" />
             </div>
 
             <p>

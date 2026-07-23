@@ -4,12 +4,12 @@ export const Edu = () => {
   return (
     <main>
       <div className="enbu_dantai">
-        <img src="/images/edu.jpg" width={1920} height={1337} alt="" />
+        <img src="/images/edu.jpg" width={1920} height={1337} alt="勉強会" />
       </div>
 
       <div className="fbox_center">
         <Link to="/">
-          <img className="souen_top" src="/images/souen2.jpg" alt="" />
+          <img className="souen_top" src="/images/souen2.jpg" alt="トップページへ戻る" />
         </Link>
       </div>
 
