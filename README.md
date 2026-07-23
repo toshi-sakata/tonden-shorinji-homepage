@@ -57,6 +57,10 @@ npm run dev
 npm run build
 ```
 
+## サーバー設定について
+
+本番サーバーの `.htaccess` はこのリポジトリでは管理していません（ホスティング側でも編集されるため）
+
 ## 関連リポジトリ
 ### HTML + jQuery版
 Reactに移行する前に作成していたHTML + jQuery版のリポジトリです。  

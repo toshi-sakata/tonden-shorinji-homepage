@@ -25,6 +25,8 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
+    // レンダリング直後はスクロール位置がまだ確定していないため、
+    // 次の描画フレームまで待ってからトップへ戻す
     requestAnimationFrame(() => {
       window.scrollTo({
         top: 0,
