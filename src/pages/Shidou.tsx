@@ -42,7 +42,7 @@ export const Shidou = () => {
         </div>
 
         <div className="shidou_fig fadeIn fd_2 fl">
-          <img src="/images/nomura.jpg" alt="野村忠晴 道院長" />
+          <img src="/images/nomura.jpg" alt="野村忠晴 道院長" loading="lazy" />
         </div>
       </div>
     </main>

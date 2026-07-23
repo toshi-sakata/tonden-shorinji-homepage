@@ -10,7 +10,11 @@ export const Footer = () => {
 
         <div className="fbox_center">
           <div className="footer_image">
-            <img src="/images/gasshuku2019_191205.jpg" alt="合宿風景" />
+            <img
+              src="/images/gasshuku2019_191205.jpg"
+              alt="合宿風景"
+              loading="lazy"
+            />
           </div>
         </div>
 
@@ -30,11 +34,13 @@ export const Footer = () => {
                 className="contact_img_mail"
                 src="/images/mail.png"
                 alt="メール"
+                loading="lazy"
               />
               <img
                 className="contact_img_mail_ad"
                 src="/images/mail_ad.jpg"
                 alt="メールアドレス"
+                loading="lazy"
               />
             </div>
           </div>
@@ -46,6 +52,7 @@ export const Footer = () => {
               className="souen_bottom"
               src="/images/souen2.jpg"
               alt="札幌屯田 丘珠スポーツ少年団"
+              loading="lazy"
             />
           </Link>
         </div>
