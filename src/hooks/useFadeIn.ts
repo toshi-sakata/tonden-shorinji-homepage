@@ -24,6 +24,8 @@ export const useFadeIn = () => {
     };
 
     const updateFadeIn = () => {
+      // 初回表示時点で画面内にある要素も、ユーザーが一度操作するまでは
+      // フェードインさせない（ロード直後に一斉表示されるのを防ぐ）
       if (!userScrolled) {
         return;
       }
