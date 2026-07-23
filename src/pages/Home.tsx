@@ -8,12 +8,12 @@ export const Home = ({ heroVisible }: HomeProps) => {
   return (
     <main>
       <div className={`renshuu ${heroVisible ? 'show' : ''}`}>
-        <img src="/images/renshuu.jpg" alt="" />
+        <img src="/images/renshuu.jpg" alt="基本練習の様子" />
       </div>
 
       <div className="fbox_center fadeIn">
         <Link to="/">
-          <img className="souen_top" src="/images/souen2.jpg" alt="" />
+          <img className="souen_top" src="/images/souen2.jpg" alt="トップページへ戻る" />
         </Link>
       </div>
 
@@ -29,7 +29,7 @@ export const Home = ({ heroVisible }: HomeProps) => {
           <br />
         </div>
         <div className="enbu fadeIn fl">
-          <img src="/images/enbu.jpg" alt="" />
+          <img src="/images/enbu.jpg" alt="演武練習" />
         </div>
       </div>
 
@@ -46,7 +46,7 @@ export const Home = ({ heroVisible }: HomeProps) => {
           <br />
         </div>
         <div className="enbu fadeIn fd_2 fl">
-          <img src="/images/chinkon.jpg" alt="" />
+          <img src="/images/chinkon.jpg" alt="鎮魂行" />
         </div>
       </div>
 
@@ -60,7 +60,7 @@ export const Home = ({ heroVisible }: HomeProps) => {
           <br />
         </div>
         <div className="enbu fadeIn fd_2 fl">
-          <img src="/images/oyako.jpg" alt="" />
+          <img src="/images/oyako.jpg" alt="親子で練習" />
         </div>
       </div>
 
@@ -76,7 +76,7 @@ export const Home = ({ heroVisible }: HomeProps) => {
           <br />
         </div>
         <div className="enbu fadeIn fd_2 fl">
-          <img src="/images/mochi.jpg" alt="" />
+          <img src="/images/mochi.jpg" alt="鏡開きの餅つき" />
         </div>
       </div>
 

@@ -28,6 +28,7 @@ export const Header = ({ openingFinished }: HeaderProps) => {
       <button
         type="button"
         className="hum_click"
+        aria-label="メニューを閉じる"
         onClick={() => setIsMenuOpen(false)}
       >
         <div className={`hum_shade ${isMenuOpen ? 'open' : 'close'}`} />
